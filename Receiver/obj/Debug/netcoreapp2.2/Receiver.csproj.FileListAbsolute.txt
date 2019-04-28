@@ -1,0 +1,11 @@
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Receiver/bin/Debug/netcoreapp2.2/Receiver.deps.json
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Receiver/bin/Debug/netcoreapp2.2/Receiver.runtimeconfig.json
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Receiver/bin/Debug/netcoreapp2.2/Receiver.runtimeconfig.dev.json
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Receiver/bin/Debug/netcoreapp2.2/Receiver.dll
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Receiver/bin/Debug/netcoreapp2.2/Receiver.pdb
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Receiver/obj/Debug/netcoreapp2.2/Receiver.csprojAssemblyReference.cache
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Receiver/obj/Debug/netcoreapp2.2/Receiver.csproj.CoreCompileInputs.cache
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Receiver/obj/Debug/netcoreapp2.2/Receiver.AssemblyInfoInputs.cache
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Receiver/obj/Debug/netcoreapp2.2/Receiver.AssemblyInfo.cs
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Receiver/obj/Debug/netcoreapp2.2/Receiver.dll
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Receiver/obj/Debug/netcoreapp2.2/Receiver.pdb

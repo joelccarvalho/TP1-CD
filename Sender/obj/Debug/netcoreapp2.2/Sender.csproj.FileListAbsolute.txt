@@ -1,0 +1,11 @@
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Sender/bin/Debug/netcoreapp2.2/Sender.deps.json
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Sender/bin/Debug/netcoreapp2.2/Sender.runtimeconfig.json
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Sender/bin/Debug/netcoreapp2.2/Sender.runtimeconfig.dev.json
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Sender/bin/Debug/netcoreapp2.2/Sender.dll
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Sender/bin/Debug/netcoreapp2.2/Sender.pdb
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Sender/obj/Debug/netcoreapp2.2/Sender.csprojAssemblyReference.cache
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Sender/obj/Debug/netcoreapp2.2/Sender.csproj.CoreCompileInputs.cache
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Sender/obj/Debug/netcoreapp2.2/Sender.AssemblyInfoInputs.cache
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Sender/obj/Debug/netcoreapp2.2/Sender.AssemblyInfo.cs
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Sender/obj/Debug/netcoreapp2.2/Sender.dll
+/Users/joelcarvalho/Desktop/IPCA/ComunicacaoDados/TP1/Sender/obj/Debug/netcoreapp2.2/Sender.pdb
