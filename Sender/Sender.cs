@@ -10,8 +10,6 @@ namespace Sender
 {
     class Sender
     {
-        //public static IDictionary<string, int> configs = new Dictionary<string, int>();
-        //public static int[] configs = new int[2];
         public static int SEQ = 109876;
         public static int SYN = 1;
         public static int ACK = 0;
@@ -112,7 +110,7 @@ namespace Sender
             string path = null;
 
             // Only first time
-            if (SYN == 1)
+            if (SYN == 1 && retras == false)
             {
                 Console.WriteLine("Specify the file path" + @" Example:(C:\Users\utilizador\Desktop\nomeFicheiro.extensao)");
                 path = Console.ReadLine();
@@ -165,7 +163,7 @@ namespace Sender
                 txt = SYN.ToString() + '_' + SEQ.ToString() + '_' + ACK.ToString() + 
                     '_' + MSS.ToString() + '_' + SEGM.ToString() + '_' + NUM_SEGM.ToString() + 
                     '_' + fileName + '_' + Encoding.Default.GetString(buffer) + 
-                    '_' + (buffer.Length).ToString();
+                    '_' + (buffer.Length).ToString() + '_' + counter;
                     
                 try
                 {
@@ -277,6 +275,7 @@ namespace Sender
 
             try
             {
+                retras         = false;
                 byte[] bytes   = listener.Receive(ref groupEP);
                 string content = Encoding.ASCII.GetString(bytes);
                 string[] info  = content.Split('_');

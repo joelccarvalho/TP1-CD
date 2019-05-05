@@ -261,13 +261,26 @@ namespace Receiver
                 }
             } while (!fileExists); // While path doesn't exists
 
-            Regex regex = new Regex(@"^\/\d|\D+\/$"); // Check last char is '/'
-            Match match = regex.Match(path);
-            
-            // No match
-            if (!match.Success) { 
-                path = path + "/";
+            // Check SO
+            if (System.Environment.OSVersion.Platform.Equals(System.PlatformID.Unix)) {
+                Regex regexUnix = new Regex(@"^\/\d|\D+\/$"); // Check last char is '/'
+                Match matchUnix = regexUnix.Match(path);
+
+                // No match unix path
+                if (!matchUnix.Success) { 
+                    path = path + "/";
+                } 
             }
+            else {
+                Regex regexWin = new Regex(@"^(?:\w\:|[\w\.]+\\[\w.$]+)\\(?:[\w]+\\)+\w+\\$"); // Check last char is '\'
+                Match matchWin = regexWin.Match(path);
+
+                // No match windows path
+                if (!matchWin.Success) {
+                    path = path + "\\";
+                }
+            }
+
             return path;
         }
     }
